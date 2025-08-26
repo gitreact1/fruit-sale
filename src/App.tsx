@@ -30,6 +30,13 @@ import Suppliers from "./pages/Suppliers";
 import Career from "./pages/Career";
 import Press from "./pages/Press";
 import Partnership from "./pages/Partnership";
+import Nutrition from "./pages/Nutrition";
+import Seasonal from "./pages/Seasonal";
+import Organic from "./pages/Organic";
+import Suppliers from "./pages/Suppliers";
+import Career from "./pages/Career";
+import Press from "./pages/Press";
+import Partnership from "./pages/Partnership";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -60,6 +67,13 @@ const App = () => (
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/recipes" element={<Recipes />} />
           <Route path="/recipe/:id" element={<Recipe />} />
+          <Route path="/nutrition" element={<Nutrition />} />
+          <Route path="/seasonal" element={<Seasonal />} />
+          <Route path="/organic" element={<Organic />} />
+          <Route path="/suppliers" element={<Suppliers />} />
+          <Route path="/career" element={<Career />} />
+          <Route path="/press" element={<Press />} />
+          <Route path="/partnership" element={<Partnership />} />
           <Route path="/nutrition" element={<Nutrition />} />
           <Route path="/seasonal" element={<Seasonal />} />
           <Route path="/organic" element={<Organic />} />
